@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -ap1 | sort -d -k1.2 | sed -e 's/[^\/]*$/&\//' | tr '\n' ','
